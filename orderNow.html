@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<div id="header">
+	<head>
+		<title>Bob the Fixer</title>
+		<link rel="stylesheet" href="styles.css" type="text/css" media="screen">
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+			<script async src="https://www.googletagmanager.com/gtag/js?id=UA-127501053-1"></script>
+			<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', 'UA-127501053-1');
+  
+			</script>
+	</head>
+	<body>
+			<a href="index.html"><img class="noBorder" img src="images/logo.png" alt="Logo here" <img class="noBorder" width="50%" height="50%" /></a>
+			<nav class="stroke">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="demo.html">Demonstration Videos</a></li>
+					<li><a href="orderNow.html">Order Now</a></li>
+				</ul>
+			</nav>
+		</div>
+		<form action="index.html" method="post">
+
+		  <fieldset>
+			<legend><span class="number">1</span> Your basic info</legend>
+			<label for="name">Name:</label>
+			<input type="text" id="name" name="user_name">
+
+			<label for="mail">Email:</label>
+			<input type="email" id="mail" name="user_email">
+
+			<label for="address">Address:</label>
+			<input type="address" id="address" name="user_address">
+		  </fieldset>
+
+		  <fieldset>
+			<legend><span class="number">2</span> Your order</legend>
+			<label for="order">Let us know what you're looking for:</label>
+			<textarea id="order" name="user_order"></textarea>
+			 <label>Which one of these is you?:</label>
+			
+			<input type="radio" value="good"><label class="light">I know what to do with DIY :)</label><br/>
+			<input type="radio" value="bad"><label class="light">I don't know what I'm doing with DIY :(</label>
+		  </fieldset>
+		  
+		  <button type="submit">Submit</button>
+
+		</form>
+		<div id="footer">
+		<form action="http://www.example.com/subscribe.php">
+			<p>Subscribe to our email list:</p>
+			<input type="text" name="email" />
+			<input type="submit" name="subscribe" value="Subscribe" />
+		</form>
+			<p>Olivia Harrington &copy; Copyright 2021</p>
+		</div>
+	</body>
+</html>
